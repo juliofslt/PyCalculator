@@ -46,7 +46,6 @@ def calculator():
 			# Result
 			if button['text'] == "=":
 				result += f'({entrada.get()})'
-				print(result)
 				entrada.set(eval(result))
 				result = ''
 				op = ''
@@ -55,12 +54,10 @@ def calculator():
 			else:
 				op = button['text']
 				result += f'({entrada.get()}) {op} '
-				print(result)
 				clear_entry()
 		
 		# Non-valid inputs
 		except:
-			print(result)
 			entrada.set('NOPE')
 
 
