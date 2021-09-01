@@ -1,5 +1,5 @@
 ## PyCalculator
 
-This is my first python project. It's just a simple and basic calculator that I made using Tkinter.
+Basic calculator made using Tkinter module.
 
-It's not perfect, but it works.
+![image](https://user-images.githubusercontent.com/51498514/131655522-9b0bcfc2-73f6-40d8-8dc8-61a519484146.png)
